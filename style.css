@@ -28,14 +28,14 @@ header {
 }
 
 .bannerContainer {
-    padding: 50px 140px 0;
+    padding: 50px 130px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .bImg {
-    width: 475px;
+    width: 480px;
 }
 
 .bTitle {
@@ -52,4 +52,112 @@ header {
     font-weight: 400;
     line-height: 30px;
     margin: 32px 0;
+}
+
+/* featured part */
+
+.featured {
+    padding: 178px 130px 128px;
+}
+
+.fSubTitle {
+    margin: 24px 0 48px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 467;
+    line-height: 30px;
+}
+
+.fFlowerContainer {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    height: 467px;
+}
+
+.fFlowerBox {
+    /* background-color: green; */
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fRoundedBox {
+    /* background-color: aqua; */
+    width: 325px;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    border-top-left-radius: 175px;
+    border-top-right-radius: 175px
+}
+
+.extra {
+    align-items: center;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.fImg {
+    width: 225px;
+    /* background-color: blue; */
+}
+
+.color1 {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+
+.color3 {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.fTxt {
+    margin-top: 32px;
+    color: #272727;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+/* sign up part */
+.signUp {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.05);
+}
+
+.sTxtContainer {
+    text-align: center;
+}
+
+span {
+    color: #E55473;
+}
+
+.sSubTitle {
+    margin: 24px 0 32px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 467;
+    line-height: 30px;
+}
+
+.sImg {
+    width: 300px;
+}
+
+/* instagram part */
+
+.instagram {
+    padding: 128px 0;
 }
