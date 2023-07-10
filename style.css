@@ -170,3 +170,13 @@ span {
 .iImg {
     width: 250px;
 }
+
+/* subscribe section */
+.subscribe {
+    padding: 0 130px 128px;
+}
+
+.subscribeContainer {
+    padding: 122px 0;
+    background-image: url('images/Rectangle9.png');
+}
