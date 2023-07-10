@@ -1,4 +1,21 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/* common styles */
+.title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.btn {
+    border-radius: 8px;
+    background-color: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
 }
