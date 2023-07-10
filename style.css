@@ -179,4 +179,18 @@ span {
 .subscribeContainer {
     padding: 122px 0;
     background-image: url('images/Rectangle9.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+input {
+    width: 500px;
+    margin-right: 16px;
+    height: 64px;
+    padding-left: 22px;
+    border: navajowhite;
+    background-color: white;
+    border-radius: 8px;
 }
