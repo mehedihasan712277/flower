@@ -229,3 +229,58 @@ footer {
 .size {
     font-size: 48px;
 }
+
+/* unnecessry part */
+.unnecessary {
+    padding: 0 130px 128px;
+}
+
+.uContainer {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 86px 0;
+}
+
+.uBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.uTxt {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 24px;
+}
+
+/* self created part */
+.review {
+    padding: 0 130px 128px;
+}
+
+.reviewContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.reviewBox {
+    color: #272727;
+    text-align: center;
+    padding: 30px 100px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.name {
+    color: #111010;
+    font-weight: 700;
+    border-top: 1px solid #111010;
+    padding: 5px 10px 0;
+}
