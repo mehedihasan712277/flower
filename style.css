@@ -159,5 +159,14 @@ span {
 /* instagram part */
 
 .instagram {
-    padding: 128px 0;
+    padding: 128px 130px;
+}
+
+.iImgContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iImg {
+    width: 250px;
 }
