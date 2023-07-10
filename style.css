@@ -139,7 +139,7 @@ header {
     text-align: center;
 }
 
-span {
+.one {
     color: #E55473;
 }
 
@@ -193,4 +193,39 @@ input {
     border: navajowhite;
     background-color: white;
     border-radius: 8px;
+}
+
+/* footer part */
+
+footer {
+    padding: 128px 0;
+    background-color: #111010;
+}
+
+.two {
+    color: #E55473;
+}
+
+.three {
+    color: #FFFFFF;
+}
+
+.ftSubTitle {
+    margin: 24px 0 32px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 467;
+    line-height: 30px;
+}
+
+.lastTxt {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.size {
+    font-size: 48px;
 }
